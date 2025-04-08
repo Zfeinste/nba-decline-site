@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobody Watches the NBA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .chart {
+      background-color: #eee;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 4px solid #888;
+    }
+    .bash-brothers {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2rem;
+      padding: 2rem;
+      background-color: #e0e0e0;
+    }
+    .bash-brothers img {
+      border-radius: 8px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .bash-bio {
+      max-width: 300px;
+      margin-left: 1rem;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem;
+    }
+    .newsletter {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    input[type="email"] {
+      padding: 0.5rem;
+      width: 60%;
+      margin: 0.5rem 0;
+    }
+    button {
+      padding: 0.5rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nobody Watches the NBA</h1>
+    <p>A data-driven cry for help (and fewer free throws)</p>
+  </header>
+
+  <div class="section">
+    <h2>Remember When People Watched?</h2>
+    <p><strong>Live Viewership Ticker:</strong> 3,274 (estimated bots included)</p>
+    <div class="chart">
+      <h3>NBA Finals Viewership: Then vs. Now</h3>
+      <ul>
+        <li>1998 (Jordan's Last Dance): 29 million</li>
+        <li>2023 (Nuggets vs. Heat): 11.6 million</li>
+      </ul>
+      <p><em>Even Denver fans were like, "Wait, we’re in the Finals?"</em></p>
+    </div>
+
+    <h2>The Decline is Real</h2>
+    <div class="chart">
+      <h3>TV Ratings Over Time</h3>
+      <p>“Not even your grandma watches TNT anymore.”</p>
+    </div>
+    <div class="chart">
+      <h3>Full Games vs. YouTube Highlights</h3>
+      <p>“People want dunks, not 48 minutes of foul baiting.”</p>
+    </div>
+
+    <h2>Meet the Last Two NBA Fans: The Bash Brothers</h2>
+    <div class="bash-brothers">
+      <div>
+        <img src="/mnt/data/1578090621040.jpg" alt="Bash Brother 1">
+        <div class="bash-bio">
+          <p>This is Kyle. Kyle owns five League Pass logins. He still defends Russell Westbrook’s MVP season and thinks load management is a myth perpetuated by Big Rest.</p>
+        </div>
+      </div>
+      <div>
+        <img src="/mnt/data/1706051050922.jpg" alt="Bash Brother 2">
+        <div class="bash-bio">
+          <p>And this is Jeremy. Jeremy has watched every Hornets game since 2016. He once tried to bet on the All-Star Game MVP. These men are keeping NBA viewership alive through sheer willpower.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Why It Sucks Now</h2>
+    <ul>
+      <li>Too many games. None of them matter.</li>
+      <li>Players sit out more than they play.</li>
+      <li>Defense is optional. Like SEC enforcement.</li>
+      <li>The refs have more screen time than Steph.</li>
+      <li>Half the league is tanking. The other half is injured.</li>
+    </ul>
+
+    <h2>What People Are Watching Instead</h2>
+    <ul>
+      <li>Twitch streamers > Pistons games</li>
+      <li>G League TikToks > Hornets highlights</li>
+      <li>XFL reruns > Wizards anything</li>
+    </ul>
+
+    <div class="newsletter">
+      <h3>Subscribe to "Load Manage Your Inbox"</h3>
+      <p>Weekly stats, bad takes, and sarcastic rants.</p>
+      <input type="email" placeholder="Enter your email">
+      <br>
+      <button>Sign Up</button>
+      <div>
+        <input type="checkbox" id="wnba">
+        <label for="wnba">I prefer the WNBA</label>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nobody Watches the NBA. All takes are facts. Deal with it.
+  </footer>
+</body>
+</html>
