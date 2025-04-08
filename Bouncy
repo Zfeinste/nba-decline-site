@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Bash Brothers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .bash-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      background-color: #e0e0e0;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .bash-member {
+      width: 300px;
+      text-align: center;
+      margin: 1rem;
+    }
+    .bash-member img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .bash-bio {
+      margin-top: 1rem;
+      font-style: italic;
+    }
+    .back-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .back-link a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Bash Brothers</h1>
+    <p>The last two humans still watching the NBA in 2025.</p>
+  </header>
+
+  <div class="container">
+    <div class="bash-section">
+      <div class="bash-member">
+        <img src="kyle.jpg" alt="Bash Brother Kyle">
+        <div class="bash-bio">
+          <p>This is Kyle. He has five League Pass logins, three burner Twitter accounts, and still believes Russell Westbrook was robbed of a second MVP. Has not missed a Thunder game since 2014.</p>
+        </div>
+      </div>
+      <div class="bash-member">
+        <img src="jeremy.jpg" alt="Bash Brother Jeremy">
+        <div class="bash-bio">
+          <p>This is Jeremy. He watches Hornets games on purpose. He once rewatched the 2019 All-Star Game just for the vibes. Without Jeremy, League Pass would have filed for bankruptcy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Homepage</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nobody Watches the NBA. All sarcasm, all facts. Powered by hoops pain.
+  </footer>
+
+</body>
+</html>
